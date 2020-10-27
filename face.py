@@ -1,5 +1,6 @@
 # #1.导入库
 import cv2
+
 # #2 加载图片
 # image = cv2.imread('C:/Users/10647/Desktop/demo1/timg (1).jfif')
 # #3 加载人脸模型
@@ -17,7 +18,7 @@ import cv2
 # #9 关闭窗口
 
 #导入图片
-img = cv2.imread('C:/Users/Administrator/Desktop/demo1/timg (4).jfif', 1)
+img = cv2.imread('tim.jpg', 1)
 #加载人脸模型库
 face_engine = cv2.CascadeClassifier(cv2.data.haarcascades+'haarcascade_frontalface_default.xml')
 #识别人脸
